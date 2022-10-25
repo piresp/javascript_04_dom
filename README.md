@@ -2,6 +2,6 @@
   
 ### Commands
   
-Selecionar elemento por id  
+Selecionar elementos
 > document.getElementById('nomedoid')  
 > document.querySelector('#nome')  
