@@ -8,10 +8,10 @@ Selecionar elementos
 
 ### Chamar evento basico  
   
-<code>
-const robotron = document.querySelector("#robotron")  
-robotron.addEventListener("click", dizOi)  
-function dizOi() {  
-    alert('Oi')  
-}  
-</code>
+
+<code>const robotron = document.querySelector("#robotron")</code>  
+<code>robotron.addEventListener("click", dizOi)</code>  
+<code>function dizOi() {</code>  
+<code>    alert('Oi')</code>  
+<code>}</code>  
+
