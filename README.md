@@ -15,7 +15,7 @@ Selecionar elementos
 <code>    alert('Oi')</code>  
 <code>}</code>  
   
-###### Função Anônima  
+##### Função Anônima  
 <code>const robotron = document.querySelector("#robotron")</code>  
 <code>robotron.addEventListener("click", () => {</code>  
 <code>    console.log('Cliquei no robo.')</code>  
