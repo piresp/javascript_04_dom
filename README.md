@@ -1,2 +1,6 @@
-# Javascript: manipulando DOM
-Roboto
+# Javascript: manipulando DOM  
+  
+### Commands
+  
+Selecionar elemento por id  
+> document.getElementById('nomedoid')  
