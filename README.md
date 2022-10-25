@@ -1,1 +1,1 @@
-# Curso Alura de programação javascript: Manipulando DOM
+# Javascript: Manipulando DOM  
