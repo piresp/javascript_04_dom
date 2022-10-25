@@ -4,3 +4,4 @@
   
 Selecionar elemento por id  
 > document.getElementById('nomedoid')  
+> document.querySelector('#nome')  
