@@ -1,12 +1,17 @@
-const braco = document.querySelector("#braco")
-const subtrair = document.querySelector("#subtrair")
-const somar = document.querySelector("#somar")
+const controle = document.querySelectorAll("[data-controle]")
 
-
-somar.addEventListener("click", () => {
-   braco.value = parseInt(braco.value) + 1
+controle.forEach( (elemento) => {
+    elemento.addEventListener("click", (evento) => {
+        manipulaDados(evento.target.dataset.controle, evento.target.parentNode)
+    })
 })
 
-subtrair.addEventListener("click", () => {
-    braco.value = parseInt(braco.value) - 1
-})
+function manipulaDados(operacao, controle) {
+    const peca = controle.querySelector("[data-contador]")
+
+    if(operacao == "-") {
+        peca.value = parseInt(peca.value) - 1
+    } else {
+        peca.value = parseInt(peca.value) + 1
+    }
+}
